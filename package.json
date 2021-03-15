@@ -2,15 +2,7 @@
   "name": "nodejs-api-boilerplate",
   "description": "A NodeJS server boilerplate for help you kickstart you futur node project. ES6/ES7 features.",
   "version": "1.0.3",
-  "author": "Emanuel Quimper <quimperemanuel@gmail.com> <https://github.com/EQuimper>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/EQuimper/nodejs-api-boilerplate"
-  },
-  "bugs": {
-    "type": "git",
-    "url": "https://github.com/EQuimper/nodejs-api-boilerplate/issues"
-  },
+  "author": "",
   "engines": {
     "node": ">= 6.10",
     "npm": ">= 3.10",
@@ -51,7 +43,6 @@
     "dev": "nps dev",
     "dev:debug": "nps dev.debug",
     "prettier": "prettier --write '{src,__{tests,mocks}__}/**/*.js'",
-    "precommit": "nps lintStaged && nps validate",
     "checkCover": "nps test.checkCover",
     "cover": "nps test.cover",
     "db:seeds-user": "nps db.seedsUser",
